@@ -1,0 +1,37 @@
+{
+    "name": "Tuane e Duan",
+    "icon": "assets/logo.png",
+  
+    "description": "\"Deus mudou o teu caminho até juntares com meu e guardou a tua vida separando-a para mim. Para onde fores, irei; onde tu repousares, repousarei. Teu Deus será o meu Deus. Teu caminho o meu será.\"",
+    "textData": "Sábado, 14 de setembro de 2024 às 16h.",
+    "text": "Local: Espaço Panorama Brasília - SMLN MI Trecho 09 NR Córrego TAM, CH Panorama CH 06 - Lago Norte, Brasília - DF",
+    "text1": "Com a benção de seus pais",
+    "text2": "Ricardo José Lins Reis\nSolange Cristina Almeida Reis",
+    "text3": "Miguel Arcanjo Soares Peres\nDilene Alves Carvalho Soares",
+    "text4": "Convidam para o enlace matrimonial",
+  
+    "links": [
+      {
+        "text": "Confirmação RSVP",
+        "href": "https://api.whatsapp.com/send?phone=556195599269&text=Olá!%20Gostaria%20de%20confirmar%20presença%20na%20cerimônia%20de%20casamento%20de%20Tuane%20e%20Duan."
+      }
+    ],
+  
+    "socialLinks": [
+      {
+        "text": "Localização",
+        "icon": "location2.svg",
+        "href": "https://maps.app.goo.gl/Suv8Y4FgPBrh2AAm6"
+      },
+      {
+        "text": "Confirmação RSVP",
+        "icon": "whats.svg",
+        "href": "https://api.whatsapp.com/send?phone=556195599269&text=Olá!%20Gostaria%20de%20confirmar%20presença%20na%20cerimônia%20de%20casamento%20de%20Tuane%20e%20Duan."
+      },
+      {
+        "text": "Lista de presentes",
+        "icon": "present.svg",
+        "href": "https://www.tuaneeduan.com.br"
+      }
+    ]
+  }

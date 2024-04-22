@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: unset;
+  --font-body: "Lexend", sans-serif;
+  --font-title: "Great Vibes", cursive;
+  --font-second: "Alex Brush", cursive;
+  --color-text-primary: #C59A27;
+  --color-text-secondary: #3c5335;
+  --color-back-card: rgb(255 255 255 / 0.51);
+  --color-back-card-media: rgb(255 255 255 / 0);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100dvh;
+  width: 100vw;
+  font-family: var(--font-body);
+}
+
+.background {
+  background-image: url('/assets/slide-10.3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  border-radius: 20px;
+  /*border: 2px solid #C59A27;*/
+  background: var(--color-back-card);
+
+  padding: 52px 10px;
+  width: 516px;
+  height: 95vh;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-header__logo-image {
+  height: 142px;
+  width: 142px;
+}
+
+.card-header__name {
+  color: var(--color-text-primary);
+  font-family: var(--font-title);
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 20px 20px 0 20px;
+}
+
+.card-header__description {
+  color: var(--color-text-secondary);
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0 5px;
+}
+
+.card-header__text1, .card-header__text2, .card-header__text3, .card-header__text4 {
+  color: var(--color-text-secondary);
+}
+
+.card-header__text1 {
+  font-size: 1rem;
+  padding: 0 10px 10px;
+}
+
+.card-header__text2 {
+  padding: 5px 0 5px 5px;
+  font-size: 0.938rem;
+}
+
+.card-header__text3 {
+  padding: 5px 5px 5px 0;
+  font-size: 0.938rem;
+}
+
+.card-header__text4 {
+  font-size: 1rem;
+  padding: 0 20px 20px 20px;
+}
+
+.card-header__parents {
+  color: var(--color-text-secondary);
+  display: flex;
+  flex-direction: row;
+}
+
+.card-header__textData {
+  color: var(--color-text-secondary);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.card-header__text {
+  color: var(--color-text-secondary);
+  font-size: 0.938rem;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.card__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  width: 100%;
+}
+
+.card__links li {
+  border-radius: 17px;
+  /*border-right: 5px solid #c4ffb2;*/
+  border-right: 5px solid #c2a65b;
+  /*border-bottom: 5px solid #3F5353;*/
+  border-bottom: 5px solid #c2a65b;
+  /*background: #198754;*/
+  background: var(--color-back-card);
+
+  list-style: none;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.card__links li a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text-primary);
+
+  padding: 20px 10px;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.card__links li a img {
+  width: 20px;
+  height: 20px;
+}
+
+.card__social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+  gap: 59px;
+}
+
+.card__social-links img {
+  width: 46px;
+  height: 46px;
+}
+
+@media (max-width: 516px) {
+  .card {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: var(--color-back-card-media);
+  }
+
+  .card__links li {
+    width: 60%;
+  }
+
+  .card__links li a {
+    font-size: 1rem;
+  }
+
+  .card-header__name {
+    font-size: 2.5rem;
+  }
+
+  .card-header__description, .card-header__textData, .card-header__text1, .card-header__text4 {
+    font-size: 0.875rem;
+  }
+
+  .card-header__text {
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+
+  .card-header__text2, .card-header__text3 {
+    font-size: 0.625rem;
+  }
+
+  .card__social-links img {
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .card {
+    gap: 15px;
+  }
+
+  .card-header__description, .card-header__textData, .card-header__text1, .card-header__text4 {
+    font-size: 0.75rem;
+  }
+
+  .card-header__name {
+    padding: 10px 10px 0 10px;
+  }
+}
