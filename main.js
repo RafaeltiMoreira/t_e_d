@@ -13,6 +13,8 @@ window.onload = function () {
   const text2 = document.querySelector(".card-header__text2");
   const text3 = document.querySelector(".card-header__text3");
   const text4 = document.querySelector(".card-header__text4");
+  const text5 = document.querySelector(".card-header__text5");
+  const text6 = document.querySelector(".card-header__text6");
 
   const linksList = document.querySelector(".card__links");
   const socialLinks = document.querySelector(".card__social-links");
@@ -30,6 +32,8 @@ window.onload = function () {
   text2.textContent = logoData.text2;
   text3.textContent = logoData.text3;
   text4.textContent = logoData.text4;
+  text5.textContent = logoData.text5;
+  text6.textContent = logoData.text6;
 
   logoData.links.forEach((link) => {
     const li = document.createElement("li");
@@ -53,6 +57,8 @@ window.onload = function () {
     a.href = socialLink.href;
     a.target = "_blank";
     a.rel = "noopener noreferrer";
+    img.target = "_blank";
+    img.rel = "noopener noreferrer";
 
     a.appendChild(img);
     li.appendChild(a);
