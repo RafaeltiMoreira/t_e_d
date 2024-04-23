@@ -25,7 +25,7 @@
   align-items: center;
 
   height: 100dvh;
-  width: 100vw;
+  /*width: 100vw;*/
   font-family: var(--font-body);
 }
 
@@ -253,5 +253,11 @@
 
   .card-header__name {
     padding: 10px 10px 0 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .card-header__text2, .card-header__text5, .card-header__text3, .card-header__text6 {
+    font-size: 0.63rem;
   }
 }
