@@ -75,9 +75,9 @@
 
 .card-header__description {
   color: var(--color-text-secondary);
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   font-weight: 400;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .card-header__text1, .card-header__text2, .card-header__text3, .card-header__text4 {
@@ -226,7 +226,7 @@
   }
 
   .card-header__text2, .card-header__text3, .card-header__text5, .card-header__text6 {
-    font-size: 0.75rem;
+    font-size: 0.675rem;
   }
 
   .card__social-links img {
