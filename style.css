@@ -34,6 +34,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 10px auto;
+  background-position-x: left;
+  background-attachment: fixed;
 }
 
 .card {
@@ -43,7 +46,7 @@
 
   padding: 52px 10px;
   width: 516px;
-  height: 95vh;
+  /*height: 95vh;*/
   text-align: center;
 
   display: flex;
@@ -94,7 +97,7 @@
 }
 
 .card-header__text5 {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 .card-header__text3 {
@@ -102,7 +105,7 @@
 }
 
 .card-header__text6 {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 .card-header__text4 {
@@ -196,6 +199,24 @@
   height: 46px;
 }
 
+@media (min-width: 1024px) {
+  .background {
+    height: 100%;
+  }
+}
+
+/*@media (max-width: 768px) {
+  .card-header {
+    margin-top: 285px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-header {
+    margin-top: 75px;
+  }
+}*/
+
 @media (max-width: 516px) {
   .card {
     width: 100%;
@@ -237,9 +258,9 @@
 }
 
 @media (max-width: 375px) {
-  .card {
+  /*.card {
     gap: 15px;
-  }
+  }*/
 
   .card-header__description, .card-header__textData, .card-header__text1, .card-header__text4 {
     font-size: 0.75rem;
