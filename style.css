@@ -34,7 +34,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 10px auto;
   background-position-x: left;
   background-attachment: fixed;
 }
@@ -202,6 +201,7 @@
 @media (min-width: 1024px) {
   .background {
     height: 100%;
+    margin: 10px auto;
   }
 }
 
