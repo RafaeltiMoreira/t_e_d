@@ -25,7 +25,6 @@
   align-items: center;
 
   height: 100dvh;
-  /*width: 100vw;*/
   font-family: var(--font-body);
 }
 
@@ -45,7 +44,6 @@
 
   padding: 52px 10px;
   width: 516px;
-  /*height: 95vh;*/
   text-align: center;
 
   display: flex;
@@ -118,7 +116,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  /*width: 100%;*/
   gap: 10px;
 }
 
@@ -199,14 +196,26 @@
   height: 46px;
 }
 
-@media (min-width: 1024px) {
-  .background {
-    height: 100%;
+@media (min-width: 1000px) {
+  .app {
+    height: 120%;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    height: 170vh;
+    width: 100%;
     margin: 10px auto;
   }
 }
 
 @media (max-width: 516px) {
+  .app {
+    height: 150dvh;
+  }
+
   .card {
     width: 100%;
     height: 100%;
