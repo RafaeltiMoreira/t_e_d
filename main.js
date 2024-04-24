@@ -1,4 +1,3 @@
-AOS.init();
 import logoData from "./logo.json";
 
 document.title = logoData.name;
