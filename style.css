@@ -23,8 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  height: 100dvh;
+  min-height: 100dvh;
   font-family: var(--font-body);
 }
 
@@ -199,25 +198,20 @@
 @media (min-width: 1000px) {
   .app {
     height: 120%;
-    margin: 10px auto;
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 768px) {
   .app {
-    width: 100%;
     margin: 10px auto;
   }
 }
 
 @media (max-width: 516px) {
-  .app {
-    height: 100dvh;
-  }
-
   .card {
     width: 100%;
-    height: 100%;
+    
     border: none;
     background: var(--color-back-card-media);
   }
