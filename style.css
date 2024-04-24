@@ -213,7 +213,7 @@
 
 @media (max-width: 516px) {
   .app {
-    height: 150dvh;
+    height: 140dvh;
   }
 
   .card {
@@ -266,6 +266,10 @@
 }
 
 @media (max-width: 360px) {
+  .app {
+    height: 130dvh;
+  }
+
   .card-header__text2, .card-header__text5, .card-header__text3, .card-header__text6 {
     font-size: 0.63rem;
   }
