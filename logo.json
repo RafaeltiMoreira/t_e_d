@@ -26,9 +26,9 @@
         "href": "https://maps.app.goo.gl/Suv8Y4FgPBrh2AAm6"
       },
       {
-        "text": "Confirmação RSVP",
-        "icon": "whats.svg",
-        "href": "https://api.whatsapp.com/send?phone=556195599269&text=Olá!%20Gostaria%20de%20confirmar%20presença%20na%20cerimônia%20de%20casamento%20de%20Tuane%20e%20Duan."
+        "text": "Site dos Noivos",
+        "icon": "site.svg",
+        "href": "https://tuaneeduan.com.br"
       },
       {
         "text": "Lista de presentes",
