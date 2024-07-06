@@ -137,6 +137,7 @@
 .grid__links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 100%;
   gap: 16px;
 }
 
@@ -215,7 +216,7 @@
   }
 
   .card__links li a {
-    font-size: 0.625rem;
+    font-size: 0.813rem;
     justify-content: space-evenly;
     padding: 10px 8px;
     gap: 8px;
@@ -248,6 +249,12 @@
     height: 36px;
   }
 
+}
+
+@media (max-width: 320px) {
+  .card__links li a {
+    font-size: 0.625rem;
+  }
 }
 
 @media (max-width: 375px) {
