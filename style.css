@@ -149,19 +149,16 @@
 
 .card__links li {
   border-radius: 17px;
-  border: 1px solid #c2a65b;
+  border-top: 1px solid #c2a65b;
+  border-left: 1px solid #c2a65b;
   background: var(--color-back-card);
-
+  border-right: 5px solid #c2a65b;
+  border-bottom: 5px solid #c2a65b;
   list-style: none;
   /*width: 80%;*/
   display: flex;
   justify-content: center;
   transition: 0.2s;
-}
-
-.card__links li:hover {
-  border-right: 5px solid #c2a65b;
-  border-bottom: 5px solid #c2a65b;
 }
 
 .card__links li a {
