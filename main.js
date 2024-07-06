@@ -37,13 +37,19 @@ window.onload = function () {
   logoData.links.forEach((link) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
-    
+    const img = document.createElement("img");
+
+    img.src = link.icon;
     a.href = link.href;
     a.textContent = link.text;
     a.target = "_blank";
     a.rel = "noopener noreferrer";
+    img.target = "_blank";
+    img.rel = "noopener noreferrer";
+
     li.appendChild(a);
     linksList.appendChild(li);
+    a.appendChild(img);
   });
 
   logoData.socialLinks.forEach((socialLink) => {

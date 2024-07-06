@@ -14,16 +14,14 @@
   
     "links": [
       {
-        "text": "Confirmação RSVP",
+        "text": "Confirmar presença",
+        "icon": "confirm.svg",
         "href": "https://api.whatsapp.com/send?phone=556195599269&text=Olá!%20Gostaria%20de%20confirmar%20presença%20na%20cerimônia%20de%20casamento%20de%20Tuane%20e%20Duan."
-      }
-    ],
-  
-    "socialLinks": [
+      },
       {
-        "text": "Localização",
-        "icon": "location2.svg",
-        "href": "https://maps.app.goo.gl/Suv8Y4FgPBrh2AAm6"
+        "text": "Lista de presentes",
+        "icon": "present.svg",
+        "href": "https://www.tuaneeduan.com.br/ecommerce"
       },
       {
         "text": "Site dos Noivos",
@@ -31,9 +29,9 @@
         "href": "https://tuaneeduan.com.br"
       },
       {
-        "text": "Lista de presentes",
-        "icon": "present.svg",
-        "href": "https://www.tuaneeduan.com.br/ecommerce"
+        "text": "Localização",
+        "icon": "location2.svg",
+        "href": "https://maps.app.goo.gl/Suv8Y4FgPBrh2AAm6"
       }
     ]
   }

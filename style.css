@@ -33,12 +33,11 @@
   background-size: cover;
   background-position: center;
   background-position-x: left;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .card {
   border-radius: 20px;
-  /*border: 2px solid #C59A27;*/
   background: var(--color-back-card);
 
   padding: 52px 10px;
@@ -135,28 +134,33 @@
   padding: 10px;
 }
 
-.card__links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 25px;
+.grid__links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
 
-  width: 100%;
+.card__links {
+  padding: 0;
+  margin: 0;
+  display: contents
 }
 
 .card__links li {
   border-radius: 17px;
-  /*border-right: 5px solid #c4ffb2;*/
-  border-right: 5px solid #c2a65b;
-  /*border-bottom: 5px solid #3F5353;*/
-  border-bottom: 5px solid #c2a65b;
-  /*background: #198754;*/
+  border: 1px solid #c2a65b;
   background: var(--color-back-card);
 
   list-style: none;
-  width: 80%;
+  /*width: 80%;*/
   display: flex;
   justify-content: center;
+  transition: 0.2s;
+}
+
+.card__links li:hover {
+  border-right: 5px solid #c2a65b;
+  border-bottom: 5px solid #c2a65b;
 }
 
 .card__links li a {
@@ -166,7 +170,7 @@
 
   padding: 20px 10px;
 
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   width: 100%;
 
@@ -205,17 +209,21 @@
 @media (max-width: 516px) {
   .card {
     width: 100%;
-    
+
     border: none;
     background: var(--color-back-card-media);
   }
 
-  .card__links li {
-    width: 60%;
+  .card__links li a {
+    font-size: 0.625rem;
+    justify-content: space-evenly;
+    padding: 10px 8px;
+    gap: 8px;
   }
 
-  .card__links li a {
-    font-size: 1rem;
+  .card__links li a img {
+    width: 18px;
+    height: 18px;
   }
 
   .card-header__name {
