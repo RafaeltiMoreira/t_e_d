@@ -14,6 +14,7 @@ window.onload = function () {
   const text4 = document.querySelector(".card-header__text4");
   const text5 = document.querySelector(".card-header__text5");
   const text6 = document.querySelector(".card-header__text6");
+  const text7 = document.querySelector(".card-header__text7");
 
   const linksList = document.querySelector(".card__links");
   const socialLinks = document.querySelector(".card__social-links");
@@ -33,6 +34,7 @@ window.onload = function () {
   text4.textContent = logoData.text4;
   text5.textContent = logoData.text5;
   text6.textContent = logoData.text6;
+  text7.textContent = logoData.text7;
 
   logoData.links.forEach((link) => {
     const li = document.createElement("li");
